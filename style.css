@@ -14,12 +14,13 @@ html,body{
 #nav{
     height: 150px;
     width: 100%;
-    background-color: red;
     display: flex;
     align-items: center;
     padding: 0 150px;
-    gap: 40px;
+    gap: 50px;
     justify-content: flex-start;
+    position: fixed;
+    z-index: 99;
 }
 
 #nav img {
@@ -30,4 +31,11 @@ html,body{
 #nav h4{
     text-transform: uppercase;
     font-weight: 500;
+}
+
+video{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    object-fit: cover;
 }
