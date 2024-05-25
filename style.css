@@ -38,6 +38,7 @@ video{
     width: 100%;
     position: fixed;
     object-fit: cover;
+    z-index: -1;
 }
 
 #main{
@@ -59,7 +60,11 @@ video{
     font-size: 60px;
     font-weight: 900;
 }
-#page1 h2{
-    font-weight: 800;
-    margin-top: 10px;
+
+#page1 p{
+    font-weight: 900;
+    padding:15px;
+    font-size: 30px
 }
+
+
