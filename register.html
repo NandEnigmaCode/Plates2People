@@ -6,22 +6,41 @@
     <title>Register</title>
     <link rel="stylesheet" href="register.css">
     <link rel="icon" type="image/x-icon" href="images/logo7.png">
+	<link rel="script" href="register.js ">
 </head> 
 </head>
 <body>
-    <div class="main">  	
-		<input type="checkbox" id="chk" aria-hidden="true">
+	<div class="container">
 
-			<div class="signup">
-				<form>
-					<label for="chk" aria-hidden="true">Sign up</label>
-					<input type="text" name="txt" placeholder="User name" required="true">
-					<input type="email" name="email" placeholder="Email" required="true">
-					<input type="password" name="pswd" placeholder="Password" required="true">
-					<button type="button">Sign up</button>
-				</form>
+		<form id="signup">
+	
+			<div class="header">
+			
+				<h3>Sign Up</h3>
+				
+				<p>You want to fill out this form</p>
+				
 			</div>
-            <button>Login</button>
+			
+			<div class="sep"></div>
+	
+			<div class="inputs">
+			
+				<input type="email" placeholder="e-mail" autofocus />
+			
+				<input type="password" placeholder="Password" />
+				
+				<div class="checkboxy">
+					<input name="cecky" id="checky" value="1" type="checkbox" />
+					<label id="terms">I accept the terms of use</label>
+				</div>
+				
+				<a id="submit" href="#">SIGN UP FOR INVITE NOW</a>
+			
+			</div>
+	
+		</form>
+	
 	</div>
 </body>
 </html>
